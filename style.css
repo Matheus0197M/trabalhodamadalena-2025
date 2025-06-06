@@ -1,0 +1,128 @@
+body{
+    background-color: #fff8dc;
+    font-family: arial, sans-serif;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    background-color: #e2dcc2;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#header {
+    background-color: #e7e3cf;
+    border-radius: 8px;
+    border: 2px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;          /* <-- adiciona isso para ocupar toda a largura */
+    margin: 0;          /* <-- remove a margem lateral */
+    z-index: 1000;
+    transition: top 0.3s ease;
+  }  
+
+nav{
+    text-align: center;
+}
+button{
+    border: 3px solid rgb(219, 216, 171);
+    background-color: #f0e9cd;
+    color: white;
+}
+
+.ed01{
+    border: 2px solid black;   
+    height: 400px;
+    width: 350px;
+    align-items: center;
+}
+.ed02{
+    border: 2px solid black;
+    height: 400px;
+    width: 350px;
+}
+.ed03{
+    border: 2px solid black;
+    height: 600px;
+    width: 400px;
+}
+.ed04{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+}
+.ed05{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+}
+.ed06{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+}
+.ed07{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+}
+.ed08{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+}
+.ed09{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+}
+.ed10{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+}
+.ed11{
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+}
+.ed12{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+}
+.ed13{
+    border: none;
+    height: 300px;
+    width: 300px;
+}
+
+p{
+    text-align: justify;
+    padding: 5px;
+}
+h2{
+    text-align: left;
+}
+.container{
+    flex: 1;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    border: 2px solid wheat;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
