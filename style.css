@@ -37,84 +37,89 @@ button{
     border: 3px solid #dbd8ab;
     background-color: #f0e9cd;
     color: white;
+    padding: 7px;
+    border-radius: 10px;
 }
 
 .ed01{
     border: 2px solid black;   
-    height: 400px;
-    width: 350px;
-    align-items: center;
+    height: 600px;
+    width: 550px;
+    margin-left: 100px;
 }
 .ed02{
     border: 2px solid black;
-    height: 400px;
-    width: 350px;
+    height: 700px;
+    width: 550px;
 }
 .ed03{
     border: 2px solid black;
-    height: 600px;
-    width: 400px;
+    height: 700px;
+    width: 550px;
 }
 .ed04{
     border: 2px solid black;
-    height: 400px;
-    width: 400px;
+    height: 700px;
+    width: 700px;
 }
 .ed05{
     border: 2px solid black;
-    height: 500px;
-    width: 400px;
+    height: 700px;
+    width: 600px;
 }
 .ed06{
     border: 2px solid black;
-    height: 500px;
-    width: 400px;
+    height: 700px;
+    width: 600px;
 }
 .ed07{
     border: 2px solid black;
-    height: 400px;
-    width: 600px;
+    height: 550px;
+    width: 750px;
 }
 .ed08{
     border: 2px solid black;
-    height: 400px;
-    width: 600px;
+    height: 550px;
+    width: 750px;
 }
 .ed09{
     border: 2px solid black;
-    height: 400px;
-    width: 600px;
+    height: 550px;
+    width: 750px;
 }
 .ed10{
     border: 2px solid black;
-    height: 400px;
-    width: 600px;
+    height: 550px;
+    width: 750px;
 }
 .ed11{
     border: 2px solid black;
-    height: 600px;
-    width: 600px;
+    height: 800px;
+    width: 800px;
 }
 .ed12{
     border: 2px solid black;
-    height: 400px;
-    width: 600px;
+    height: 550px;
+    width: 750px;
 }
 .ed13{
     border: none;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
+    margin-left: 700px;
 }
 
 p{
-    text-align: justify;
-    padding: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
 }
 h2{
-    text-align: left;
+    text-align: center;
 }
 .container{
     flex: 1;
+    text-align: center;
 }
 
 footer{
@@ -129,11 +134,13 @@ footer{
     right: 0;
 }
 
+
 @media screen and (max-width: 430px) and (max-height: 932px) {
     footer{
         background: blueviolet;
         left: 0;
         right: 0;
+        display: flex;
     }
     p{
         text-align: left;
@@ -225,20 +232,18 @@ footer{
     .ed11{
         border: 2px solid black;
         height: 350px;
-        width: 350px;
-        margin-left: 3px;
+        width: 350px;     
     }
     .ed12{
         border: 2px solid black;
         height: 250px;
         width: 350px;
-        margin-left: 32px;
     }
     .ed13{
         border: none;
         height: 350px;
         width: 350px;
-        margin-left: 32px;
+        margin-left: 30px;
     }
 
     #contato{
