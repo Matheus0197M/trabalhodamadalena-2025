@@ -136,11 +136,14 @@ footer{
 
 
 @media screen and (max-width: 430px) and (max-height: 932px) {
+
+        
     footer{
-        background: blueviolet;
-        left: 0;
-        right: 0;
-        display: flex;
+    background: linear-gradient(#7f02b1, black);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
     }
     p{
         text-align: left;
@@ -151,6 +154,7 @@ footer{
         background-color: burlywood;
         left: 0;
         right: 0;
+        top: 0;
     }
 
     h1{
@@ -252,3 +256,4 @@ footer{
 
     }
 }
+

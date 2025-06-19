@@ -15,7 +15,6 @@ let lastScroll = window.scrollY;
     lastScroll = currentScroll;
   });
 
-
   setTimeout(() => {
     const header = document.getElementById('header');
     header.style.top = "-170px"; // Ajuste conforme a altura do seu header
